@@ -1,16 +1,16 @@
 # Project Goal
-This project tries to present how to cluster customers and help company to make special discount for different targets. 
+This project tries to present how to <b>cluster</b> customers and help company to make special discount for different targets. 
 In order to gain profits, company should set different coupon for different customers because every customers are individual and unique. However, customizing everyone is difficult
 to reach so we can create some clusters to divide whole customers. We separate people into same group with similar traits so that we can satisfy most of people
 with implementing strategies for different clusters.
 
 # Method
-I use K-Means and Hierarchical Clustering to demonstrate.  
+I use <b>K-Means</b> and <b>Hierarchical</b> Clustering to demonstrate.  
 At first, I plot scatters to understand each variables correlation. We can see that gender doesn't have any relation to segmenting customers, so I drop it.  
 ![1](https://user-images.githubusercontent.com/67025904/134706737-8d0f6e59-ce7e-45dc-a794-12a236bd7043.jpg)
 
 - Kmeans  
-Use 'KMeans()' to fit data and create 1 to 10 clusters. Then, I plot the number of cluster against to inertia and use elbow method to check which cluster have siginificant change or fall gap. That cluster number might be best cluster. According to graph, I decide 3 and 5 to do further step.  
+Use <b>'KMeans()'</b> to fit data and create 1 to 10 clusters. Then, I plot the number of cluster against to inertia and use elbow method to check which cluster have siginificant change or fall gap. That cluster number might be best cluster. According to graph, I decide 3 and 5 to do further step.  
 ![2](https://user-images.githubusercontent.com/67025904/134711555-8b790106-b438-417b-96c5-d32941e09bd5.jpg)
 
 In 3 clusters graph, it is not very well because we can see left up, left down, and middle seems can be divide to three different groups.  
