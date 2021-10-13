@@ -10,8 +10,8 @@ At first, I plot scatters to understand each variables correlation. We can see t
 ![1](https://user-images.githubusercontent.com/67025904/134706737-8d0f6e59-ce7e-45dc-a794-12a236bd7043.jpg)
 
 - Kmeans  
-Use <b>'KMeans()'</b> to fit data and create 1 to 10 clusters. Then, I plot the number of cluster against to inertia and use elbow method to check which cluster have siginificant change or fall gap. That cluster number might be best cluster. According to graph, I decide 3 and 5 to do further step.  
-![2](https://user-images.githubusercontent.com/67025904/134711555-8b790106-b438-417b-96c5-d32941e09bd5.jpg)
+Use <b>'KMeans()'</b> to fit data and create 1 to 10 clusters. Then, I plot the number of cluster against to WCSS(Within-Cluster Sum of Square) and use elbow method to check which cluster have siginificant change or fall gap. That cluster number might be best cluster. According to graph, I decide 3 and 5 to do further step.  
+![2](https://user-images.githubusercontent.com/67025904/137165465-50679e6d-b2d9-4b79-882e-72b0d2aaa65b.jpg)
 
 In 3 clusters graph, it is not very well because we can see left up, left down, and middle seems can be divide to three different groups.  
 ![3](https://user-images.githubusercontent.com/67025904/134712186-0fdce8cc-0f20-41f4-a6bf-4daec303d8c6.jpg)
