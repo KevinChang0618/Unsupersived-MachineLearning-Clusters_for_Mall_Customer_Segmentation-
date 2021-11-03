@@ -6,8 +6,13 @@ with implementing strategies for different clusters.
 
 # Method
 I use <b>K-Means</b> and <b>Hierarchical</b> Clustering to demonstrate.  
+
+<b> Data Preprocessing</b>  
+
 At first, I plot scatters to understand each variables correlation. We can see that gender doesn't have any relation to segmenting customers, so I drop it.  
 ![1](https://user-images.githubusercontent.com/67025904/134706737-8d0f6e59-ce7e-45dc-a794-12a236bd7043.jpg)
+
+<b>Modeling</b>  
 
 - Kmeans  
 Use <b>'KMeans()'</b> to fit data and create 1 to 10 clusters. Then, I plot the number of cluster against to WCSS(Within-Cluster Sum of Square) and use elbow method to check which cluster have siginificant change or fall gap. That cluster number might be best cluster. According to graph, I decide 3 and 5 to do further step.  
