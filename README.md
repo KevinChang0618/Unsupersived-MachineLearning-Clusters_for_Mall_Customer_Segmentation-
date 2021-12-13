@@ -42,7 +42,7 @@ In kmeans graph, we can easier to prepare our strategies because we have X-axis(
 
 In short brief for the project goal, five clusters is the best and if the company want to create more profits, company can set the strategies as follow.  
 1. For the group in right up, they have high annualincome and high spendingscore so company can give them little gift after they buy products. Because they already have high ability to purchase, company just need to keep them.  
-2. For the group in right low, they have high annualincome but high spendingscore so company may send a survey to understand why they don't like to purchase in store. And fix the problems base on their survey.  
+2. For the group in right low, they have high annualincome but low spendingscore so company may send a survey to understand why they don't like to purchase in store. And fix the problems base on their survey.  
 3. For the group in the middle, they have middle annualincome and spendingscore so company can send them some coupons to stimulate their buying.  
 4. For the group in the left up, they have low annualincome and high spendingscore so company can give some discount to them to keep their customer loyalty.  
 5. For the group in the left low, they have low annualincome and low spendingscore. Since we can't change their income, company can give them stronger discount such as buy one get one free or 60% off to attract them.  
